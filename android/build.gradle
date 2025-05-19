@@ -1,4 +1,4 @@
-group 'com.sample.edgedetection'
+group 'com.hitek.snsb'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
-    namespace 'com.sample.edgedetection'
+    namespace 'com.hitek.snsb'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
